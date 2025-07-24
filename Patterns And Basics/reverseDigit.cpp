@@ -29,6 +29,9 @@ int main(){
 //     cin>>num;
 //     while(num!=0){
 //             a=num % 10;
+//             if(rev>INT_MAX/10 || rev<INT_MIN){
+//                  return 0;
+//              }
 //             reverse=reverse*10 + a;
 //             num=num/10;
 //     }

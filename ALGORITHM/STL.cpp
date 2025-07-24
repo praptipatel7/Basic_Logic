@@ -63,24 +63,24 @@
 //2)it is initiallised as "deque<int> d;"
 //3)WE CAN ACCESS DATA FROM INBETWEEN ALSO LIKE d[3]
 
-// //Pair=======================================================================================================
-// //like Dictionary in python with only one index
-// //if we want multiple index then we should create a vector of pairs
-// #include<iostream>
-// #include<vector>
-// using namespace std;
+//Pair=======================================================================================================
+//like Dictionary in python with only one index
+//if we want multiple index then we should create a vector of pairs
+#include<iostream>
+#include<vector>
+using namespace std;
 
-// int main(){
-//     vector<pair<int,int>> vec = {{1, 2}, {3, 4}, {5, 6}};
+int main(){
+    vector<pair<int,int>> vec = {{1, 2}, {3, 4}, {5, 6}};
 
-//     vec.push_back({7, 8});
-//     vec.emplace_back(9, 10);
+    vec.push_back({7, 8});
+    vec.emplace_back(9, 10);
 
-//     for(auto p : vec){
-//         cout<<p.first<<"  "<<p.second;
-//         cout<<endl;
-//     }
-// }
+    for(auto p : vec){
+        cout<<p.first<<"  "<<p.second;
+        cout<<endl;
+    }
+}
 
 //Stack(LIFO)===============================================================================================
 //push, emplace, top, pop, size, swap , empty
